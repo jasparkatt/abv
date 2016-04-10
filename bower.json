@@ -1,0 +1,28 @@
+{
+  "name": "myfishing",
+  "authors": [
+    "jaspar katt <jasparkatt@yahoo.com>"
+  ],
+  "description": "load stuff for my fishing leaflet project",
+  "main": "",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.4",
+    "Leaflet.awesome-markers": "^2.0.2",
+    "leaflet.markercluster": "^0.4.0",
+    "mapbox.js": "2.2.3"
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<!--NEED TO CHANGE THESE LINKS TO REFERENCE BOWER FOLDER LOCATION-->
+<head>
+    <title>Fishing</title>
+    <link type="text/css" rel="stylesheet" href="src/styles/MyFishing.css">
+    <!--    <link type="text/css" rel="stylesheet" href="css/leaflet.css">-->
+    <link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/Leaflet/Leaflet.markercluster/master/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://rawgit.com/Leaflet/Leaflet.markercluster/master/dist/MarkerCluster.Default.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+
+    <script src="src/data/Class1.json"></script>
+    <script src="src/data/Class2.json"></script>
+    <script src="src/data/CntyFrst.json"></script>
+    <script src="src/data/SFA_PA.json"></script>
+<!--    <script src="data/PvtLnd_Esm_smp.json"></script>-->
+    <!--<script src="data/Watersheds_2.json"></script>-->
+    <script src="src/data/spotX.json"></script>
+    <!--<script src="data/WI_Springs.json"></script>-->
+
+</head>
+
+<body>
+    <div id="header">
+        <h1 id="Title">The Bug Fishing</h1>
+        <!--
+        <button id="Class1" class="buttons">Class 1</button>
+        <button id="Class2" class="buttons">Class 2</button>
+        <button id="Fishery" class="buttons">State Fishery Area</button>
+        <button id="SpotX" class="buttons">Spot X</button>
+-->
+    </div>
+    <div id="wrapper">
+        <div id="map"></div>
+    </div>
+    <script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <script src="https://rawgit.com/jasparkatt/Leaflet.markercluster/master/dist/leaflet.markercluster.js"></script>
+    <script src="src/scripts/MyFishing.js"></script>
+</body>
+
+</html>

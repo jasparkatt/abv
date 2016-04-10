@@ -1,0 +1,20 @@
+html, body {    
+    width: 100%;
+    padding: 5px;
+    font-family: 'Lora', Linotype, serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+}
+
+#wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;    
+}
+
+
+#map {
+    height: 780px;
+    background-color: azure;
+}

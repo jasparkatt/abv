@@ -1,0 +1,10 @@
+{
+    "name": "MyFishing",
+    "version": "0.0.1",
+    "dependencies": {
+        "jquery": "2.1.4",
+        "Leaflet.awesome-markers": "^2.0.2",
+        "leaflet.markercluster": "^0.4.0",
+        "mapbox.js": "2.2.3"
+    }
+}
