@@ -55,12 +55,12 @@ var ESMT = {
 };
 
 var WtrShed = {
-    "color": "#006afc",
+    "color": "#005ad1",
     "weight": 2,
-    "opacity": 0.6,
+    "opacity": 0.35,
     "dashArray": '3',
-    "fillOpacity": 0.5,
-    "fillColor": "#1bc7e6"
+    "fillOpacity": 0.7,
+    "fillColor": "#f5ddcb"
 };
 
 var Sprng = {
