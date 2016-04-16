@@ -20,26 +20,23 @@ html, body {
 #fly {
     float: left;
     height: 140px;
-    width: 35%;
+    width: 30%;
     border-bottom-right-radius: 50%;
     border-top-right-radius: 50%;
 }
 #trout {
     float: right;
     height: 140px;
-    width: 35%;
+    width: 30%;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
 
 }
-#Title {
-    margin: 20px;
+#header-text {
+    margin-left: auto;
+    margin-right: auto;
 }
-h3 {
-    margin-bottom: 70px;
-    width: auto;
-   
-}
+
 #map {
     height: 680px;
     background-color: azure;
