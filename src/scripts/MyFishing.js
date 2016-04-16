@@ -12,7 +12,7 @@ mbUr2 = 'https://a.tiles.mapbox.com/v4/jasparkatt.mc7mh1f5/{z}/{x}/{y}.png?acces
 mbUr3 = 'https://a.tiles.mapbox.com/v4/jasparkatt.mg637mmi/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFzcGFya2F0dCIsImEiOiJ0dFVNWUxvIn0.c2iL93m2nRg0gnqSlm5bhA';
 
 var myStyle = {
-    "color": "#0225e0",
+    "color": "#18009f",
     "weight": 4,
     "opacity": 0.5,
     "dashArray": '4',
@@ -55,12 +55,12 @@ var ESMT = {
 };
 
 var WtrShed = {
-    "color": "#005ad1",
-    "weight": 2,
+    "color": "#020217",
+    "weight": 2.5,
     "opacity": 0.35,
-    "dashArray": '3',
-    "fillOpacity": 0.7,
-    "fillColor": "#f5ddcb"
+    "dashArray": '4',
+    "fillOpacity": 0.25,
+    "fillColor": "#675ced"
 };
 
 var Sprng = {
