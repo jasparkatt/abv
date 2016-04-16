@@ -31,4 +31,8 @@ gulp.task('default', ['jshint', 'browser-sync'], function () {
             reload(file.path);
         }
     });
+    //watch for js change
+    gulp.watch('../scripts/*.js', function() {
+        gulp.run('jshint');
+    });
 });
