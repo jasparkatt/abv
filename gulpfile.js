@@ -1,38 +1,72 @@
-// include gulp
-var gulp = require('gulp');
+// load node modules/plugins
+var gulp       = require('gulp');
+var concat      = require('gulp-concat');
+var uglify      = require('gulp-uglify');
+var jsonminify  = require('gulp-jsonminify');
+var jshint      = require('gulp-jshint');
+var browserSync = require('browser-sync');
+var reload      = browserSync.reload;
+var imagemin    = require('gulp-imagemin');
 
-// include plug-ins
-var jshint = require('gulp-jshint'),
-	browserSync = require('browser-sync'),
-    reload      = browserSync.reload;
+//process styles
+gulp.task('styles', function() {
+    return gulp.src('src/css/*.css')
+       .pipe(concat('all.css'))
+       .pipe(gulp.dest('dist'));
+});
+
+//process scripts
+gulp.task('scripts', function() {
+    return gulp.src('src/js/*.js')
+       .pipe(jshint())
+       .pipe(jshint.reporter('default'))
+       .pipe(concat('all.js'))
+       .pipe(uglify())
+       .pipe(gulp.dest('dist'));
+});
+
+//process json...omitting for now..stupid Jason :)
+//gulp.task('minify', function () {
+ //    return gulp.src(['src/data/*.json'])
+  //      .pipe(jsonminify())
+        
+ //      .pipe(gulp.dest('dist'));
+//});
+
+//process images
+gulp.task('images', function() {
+    return gulp.src('src/img/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('dist/img'));
+});
+
+//watching files -- runs task in second argument on change i.e. 'styles'
+gulp.task('watch', function() {
+   gulp.watch('src/css/*.css', 
+              gulp.series('styles', browser-sync.reload));
+    gulp.watch('src/js/*.js', 
+             gulp.series('scripts', browser-sync.reload));
+    gulp.watch('src/img/*', 
+             gulp.series('images', browser-sync.reload));
     
-// js hint task
-gulp.task('jshint', function() {
-	gulp.src('./src/scripts/*.js')
-		.pipe(jshint())
-		.pipe(jshint.reporter('default'));
-		});
+});
 
+  
 
-//browser sync server
+// start server
 gulp.task('browser-sync', function() {
-    browserSync(['./src/**/*.css', './src/**/*.js', './src/**/*.html'], {
+    browserSync([ 'dist/all.css', 'dist/all.js', 'index.html'], {
         server: {
             baseDir: "./"
         }
     });
 });	
 
-
 // Default task to be run with `gulp`
-gulp.task('default', ['jshint', 'browser-sync'], function () {
-    gulp.watch('../styles/*.css', function (file) {
-        if (file.type === "changed") {
-            reload(file.path);
-        }
-    });
-    //watch for js change
-    gulp.watch('../scripts/*.js', function() {
-        gulp.run('jshint');
-    });
-});
+gulp.task('default', ['styles', 'scripts', 'images', 'browser-sync']);
+    
+
+
+
+
+
