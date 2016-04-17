@@ -41,15 +41,17 @@ gulp.task('images', function() {
 });
 
 //watching files -- runs task in second argument on change i.e. 'styles'
+
 gulp.task('watch', function() {
    gulp.watch('src/css/*.css', 
-              gulp.series('styles', browser-sync.reload));
+        gulp.run('styles', browserSync.reload));
     gulp.watch('src/js/*.js', 
-             gulp.series('scripts', browser-sync.reload));
+        gulp.run('scripts', browserSync.reload));
     gulp.watch('src/img/*', 
-             gulp.series('images', browser-sync.reload));
+        gulp.run('images', browserSync.reload));
     
 });
+
 
   
 
@@ -63,7 +65,7 @@ gulp.task('browser-sync', function() {
 });	
 
 // Default task to be run with `gulp`
-gulp.task('default', ['styles', 'scripts', 'images', 'browser-sync']);
+gulp.task('default', ['styles', 'scripts', 'images', 'watch', 'browser-sync']);
     
 
 
