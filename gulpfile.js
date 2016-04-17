@@ -43,13 +43,10 @@ gulp.task('images', function() {
 //watching files -- runs task in second argument on change i.e. 'styles'
 
 gulp.task('watch', function() {
-   gulp.watch('src/css/*.css', 
-        gulp.run('styles', browserSync.reload));
-    gulp.watch('src/js/*.js', 
-        gulp.run('scripts', browserSync.reload));
-    gulp.watch('src/img/*', 
-        gulp.run('images', browserSync.reload));
-    
+   gulp.watch('src/styles/*.css', ['styles', browserSync.reload]);
+   gulp.watch('src/scripts/*.js', ['scripts', browserSync.reload]);
+   gulp.watch('src/images/*', ['images', browserSync.reload]);
+   
 });
 
 
