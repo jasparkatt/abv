@@ -38,7 +38,7 @@ html, body {
 }
 
 #map {
-    height: 680px;
+    height: 712px;
     background-color: azure;
 
 }
@@ -47,4 +47,20 @@ img {
     -webkit-filter: grayscale(70%); /* Chrome, Safari, Opera */
     filter: grayscale(70%);
     
+}
+footer {
+                
+    background-color: #d9d9d9;
+    position: fixed;
+    z-index: 10;
+    height: 3em;
+    width: 100%;
+    
+    text-align: center;
+    bottom: 0px;
+    
+}
+footer p {
+  padding-bottom: 20px;
+   
 }
