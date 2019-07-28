@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "Stream": "North Platte River",
+        "County": "Carbon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.87708139419556,
+          42.22417957400155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "Stream": "Encampment River",
+        "County": "Carbon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.78779602050781,
+          41.13386993912243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "Stream": "French Creek",
+        "County": "Carbon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.51116371154785,
+          41.21449790668953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "Stream": "North Platte River",
+        "County": "Carbon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.39366149902344,
+          41.04531056307815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "Stream": "Brooklyn Lake",
+        "County": "Carbon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.24753475189209,
+          41.3703676949129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "Stream": "Lake Owen",
+        "County": "Albany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.10793113708496,
+          41.14998085100059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "Stream": "Green River",
+        "County": "Sweetwater"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.45099353790283,
+          41.35292583651335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "Stream": "Yellowstone Lake",
+        "County": "Teton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.41697502136229,
+          44.5124822002224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "Stream": "Yellowstone River",
+        "County": "Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.40308117866516,
+          44.610428284793315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "Stream": "Gibbon River",
+        "County": "Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.6249964237213,
+          44.71259366352166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "Stream": "Laramie River",
+        "County": "Albany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.04330062866211,
+          41.03721847915574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "Stream": "Sylvan Lake",
+        "County": "Custer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.56119513511658,
+          43.84488863227156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 13,
+        "Stream": "Spearfish Creek",
+        "County": "Lawrence"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.92182350158691,
+          44.368264312251384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "Stream": "French Creek",
+        "County": "Custer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.46795082092285,
+          43.70998218542716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "Stream": "Wade Lake",
+        "County": "Madison"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.56659126281737,
+          44.80808650442356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "Stream": "Hidden Lake",
+        "County": "Madison"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.60281181335448,
+          44.71636761454848
+        ]
+      }
+    }
+  ]
+}
