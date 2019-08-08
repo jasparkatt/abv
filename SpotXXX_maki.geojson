@@ -15,7 +15,7 @@
         "Stream": "Plover River",
         "County": "Marathon",
         "marker-color": "#cd950c",
-        "marker-symbol": "https://raw.githubusercontent.com/jasparkatt/abv/blob/grady-edits/trout.png",
+        "marker-symbol": "http://raw.githubusercontent.com/jasparkatt/abv/blob/grady-edits/trout.png",
         "Trout": "True",
         "Steelhead": "False",
         "Carp": "False",
