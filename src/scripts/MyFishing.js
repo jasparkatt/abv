@@ -7,9 +7,9 @@ var mbAttr = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</
     '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
     'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 
-    mbur1 = 'https://a.tiles.mapbox.com/v4/jasparkatt.o8o63d1b/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFzcGFya2F0dCIsImEiOiJ0dFVNWUxvIn0.c2iL93m2nRg0gnqSlm5bhA';
-mbUr2 = 'https://a.tiles.mapbox.com/v4/jasparkatt.mc7mh1f5/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFzcGFya2F0dCIsImEiOiJ0dFVNWUxvIn0.c2iL93m2nRg0gnqSlm5bhA';
-mbUr3 = 'https://a.tiles.mapbox.com/v4/jasparkatt.mg637mmi/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFzcGFya2F0dCIsImEiOiJ0dFVNWUxvIn0.c2iL93m2nRg0gnqSlm5bhA';
+    mbur1 = 'https://a.tiles.mapbox.com/v4/jasparkatt.o8o63d1b/{z}/{x}/{y}.png?access_token=';
+mbUr2 = 'https://a.tiles.mapbox.com/v4/jasparkatt.mc7mh1f5/{z}/{x}/{y}.png?access_token=';
+mbUr3 = 'https://a.tiles.mapbox.com/v4/jasparkatt.mg637mmi/{z}/{x}/{y}.png?access_token=';
 
 var myStyle = {
     "color": "#2d13bf",
